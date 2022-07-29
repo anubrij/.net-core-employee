@@ -1,0 +1,1 @@
+﻿EXECUTE @id = [dbo].[CreateEmployees] @firstName, @lastName, @dateOfBirth, @designation, @dateOfJoining, @CTC

@@ -1,0 +1,6 @@
+﻿CREATE OR ALTER PROCEDURE [dbo].[DeleteEmployees] 
+	@Id as int
+AS
+BEGIN
+	DELETE FROM EMPLOYEES WHERE Id = @Id
+END

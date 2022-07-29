@@ -1,0 +1,1 @@
+﻿EXECUTE [dbo].[UpdateEmployees] @id, @firstName, @lastName, @dateOfBirth, @designation, @dateOfJoining, @CTC

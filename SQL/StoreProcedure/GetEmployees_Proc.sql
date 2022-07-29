@@ -1,0 +1,6 @@
+﻿CREATE OR ALTER PROCEDURE [dbo].[GetEmployees] 
+	@Id as int
+AS
+BEGIN
+	SELECT * FROM EMPLOYEES WHERE (@Id = -1 OR Id = @Id)
+END
